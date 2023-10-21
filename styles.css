@@ -4,11 +4,29 @@
     background: pink;
 } */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+/* 
 .container {
     padding: 2rem;
 }
 
 .photos {
+    background: lightgreen;
     max-width: 350px;
 }
 
@@ -53,7 +71,7 @@
 
 .slider-nav a:hover {
     opacity: 1;
-}
+} */
 /* .wrapper {
     margin: 0;
     width: 1000px;
