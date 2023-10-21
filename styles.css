@@ -9,16 +9,21 @@
     margin: 0;
     padding: 0;    
 }
+
 body {
     height: 100vh;
     display: flex;
     justify-content: left;
-    align-items: center;
 }
 .slider {
     position: relative;
     width: 100%;
     overflow: hidden;
+}
+.images img {
+    height: 200px;
+    width: 100%;
+    transition: all 0.1s ease;
 }
 /* 
 .container {
