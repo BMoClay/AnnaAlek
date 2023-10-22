@@ -24,12 +24,13 @@ img {
 
 img {
     margin-top: 10px;
+    margin-right: 35px;
 }
 
 .content {
     margin-left: 35px;
     color: black;
-    margin-right: 35px;
+    /* margin-right: 35px; */
     /* line-height: 8px; */
 }
 
