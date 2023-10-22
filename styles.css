@@ -4,32 +4,33 @@ img {
 }
 
 * {
-    font-family: arial, helvetica;
-    font-size: 12px;
+    font-family: Times;
+    /* font-size: 16px; */
     font-weight: lighter;
-    text-align: left;
-    text-decoration: none;
-    line-height: 10px;
+    /* text-align: left; */
+    /* color: black; */
+    //line-height: 16px;
+    /* margin-right: 20%; */
 }
 
-/* 
-p {
-    font-family: arial, helvetica;
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: left;
+#button {
+    color: black;
     text-decoration: none;
-    text-indent: -5px; 
-    line-height: 1px;
 }
 
-h3 {
-    font-family: arial, helvetica;
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: left;
-    text-decoration: none;
-    text-indent: -5px;
-    line-height: 1px;
+img {
+    margin-top: 10px;
 }
- */
+
+.content {
+    margin-left: 35px;
+    color: black;
+    margin-right: 35px;
+}
+
+.header {
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 8px;
+}
+
