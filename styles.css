@@ -18,6 +18,10 @@ img {
     text-decoration: none;
 }
 
+#link {
+    color: black;
+}
+
 img {
     margin-top: 10px;
 }
@@ -26,11 +30,12 @@ img {
     margin-left: 35px;
     color: black;
     margin-right: 35px;
+    /* line-height: 8px; */
 }
 
 .header {
     margin-top: 35px;
     margin-left: 20px;
-    line-height: 8px;
+    /* line-height: 8px; */
 }
 
