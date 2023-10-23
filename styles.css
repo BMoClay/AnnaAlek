@@ -9,6 +9,12 @@ img {
       margin-right: 0;
       max-width: 100%;
     }
+  
+    .no-mobile {
+      display: none;
+    }
+  }
+  
 
 * {
     font-family: Times;
