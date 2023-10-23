@@ -26,6 +26,14 @@ p {
     margin-left: 20px;
 }
 
+iframe {
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 700px;
+    max-width: calc(100% - 70px);
+}
+
 img {
     margin-top: 25px;
     margin-left: 35px;
@@ -43,6 +51,13 @@ img {
     }
     .header {
         margin-left: 10px;
+    }
+
+    iframe {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: calc(100% - 20px);
     }
 
     p {
