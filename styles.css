@@ -32,7 +32,7 @@ img {
 }
 
 .content {
-    /* margin-left: 35px; */
+    margin-left: 35px;
     color: black;
     width: 475px;
     max-width: calc(100% - 60px);
