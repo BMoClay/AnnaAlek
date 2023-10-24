@@ -7,18 +7,34 @@
 </head>
 <body>
     <br>
-    <div>
-        <a id="button" href="/AnnaAlek/about.html"><</a>
-        <a id="button" href="/AnnaAlek/photos.html">></a>
-    </div>
     <div class="header">
+        <div>
+            <a id="button" href="/AnnaAlek/info.html"><</a>
+            <a id="button" href="/AnnaAlek/photos.html">></a>
+        </div>
+        <br>
+        <br>
         Anna A. Ignatenko
         <br>
         <br>
-        <a id="link" href="/AnnaAlek/about.html">About</a>
     </div>
-    <!-- <div id=intro class="content">
-        <a id="link" href="/about.html">About</a>
-    </div> -->
+    <div class="footer">
+        <!-- Trigger/Open the Modal -->
+        <button onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button">Info</button>
+    
+        <!-- The Modal -->
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                class="w3-button w3-display-topright">&times;</span>
+                <p>Anna Aleksandrovna Ignatenko
+                    New York, NY 
+                    aai2131@columbia.edu </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
