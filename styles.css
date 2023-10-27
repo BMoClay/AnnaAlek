@@ -4,17 +4,89 @@
     font-weight: lighter;
 }
 
+#button {
+    /* font-size: 15px; */
+    /* margin-left: 20px; */
+    color: black;
+    text-decoration: none;
+}
+
 .footer {
     position: absolute;
     bottom: 30px;
     right: 30px;
 }
 
-#button {
-    /* font-size: 15px; */
-    /* margin-left: 20px; */
+h2 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.header {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+iframe {
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 700px;
+    max-width: calc(100% - 70px);
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 700px;
+    max-width: calc(100% - 70px);
+}
+
+#info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#intro {
+    max-width: 300px;
+}
+
+#link {
     color: black;
-    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: calc(100% - 20px);
+    }
+    .header {
+        margin-left: 10px;
+    }
+
+    h2 {
+        margin-left: 10px;
+    }
+
+    iframe {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: calc(100% - 20px);
+    }
+
+    p {
+        margin-left: 10px;
+        max-width: 315px;
+    }
+
+    .no-mobile {
+        display: none;
+    }
 }
 
 .modal {
@@ -55,69 +127,8 @@
     opacity: 0.75;
   } */
 
-#info {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#link {
-    color: black;
-}
-
-#intro {
-    max-width: 300px;
-}
-
 p {
     margin-left: 30px;
     max-width: 300px;
 }
 
-.header {
-    margin-top: 35px;
-    margin-left: 20px;
-}
-
-iframe {
-    margin-top: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-    width: 700px;
-    max-width: calc(100% - 70px);
-}
-
-img {
-    margin-top: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-    width: 700px;
-    max-width: calc(100% - 70px);
-}
-
-@media only screen and (max-width: 768px) {
-    img {
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: calc(100% - 20px);
-    }
-    .header {
-        margin-left: 10px;
-    }
-
-    iframe {
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: calc(100% - 20px);
-    }
-
-    p {
-        margin-left: 10px;
-        max-width: 315px;
-    }
-
-    .no-mobile {
-        display: none;
-    }
-}
