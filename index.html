@@ -8,7 +8,7 @@
         defer 
         src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
     ></script>
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
 </head>
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
@@ -34,30 +34,30 @@
             x-cloak
             x-transition
         >
-        <template x-teleport="body">
-            <div x-show="isModalOpen" x-on:click.away="isModalOpen = false" id=info class="model-inner">
-                <br><br>
-                Anna Aleksandrovna Ignatenko<br>
-                New York, NY <br><br>
-                Anna is a filmmaker and artist, and her expertise spans photography, sculpture, video, filmmaking, 
-                and screenwriting. She is currently on track to graduate in Spring 2024 from the School of Arts at
-                Columbia University in Film & Media Studies.<br><br>
-                She has previously studied Cognitive Science and Neuroscience & Behavioral Studies at the School 
-                of Psychology, School of Cognitive Science, and Department of Biological Sciences at Columbia
-                University. <br><br>
-                In addition to her own ventures, she is open to collaborating on others’ films or video projects 
-                as a producer, production manager, researcher, or director of photography. She also supports
-                fellow artists, managing exhibitions and overseeing studios from both production and creative
-                perspectives.<br><br>
-                Professionally, Anna is actively preparing for two new projects set to begin filming this upcoming
-                winter and has other collaborated on films currently either shortlisted or in post-production
-                scheduled for release in 2024. Upcoming on the academic front, she is preparing to apply to Ph.D.
-                programs this December for Fall 2024.<br><br>
-                For inquiries or partnerships, she can be reached at aai2131@columbia.edu. 
-            </div>        
-        </template>
-    </div>
-    <div class="overlay" x-show="isModalOpen" x-cloak></div>
+            <template x-teleport="body">
+                <div x-show="isModalOpen" x-on:click.away="isModalOpen = false" id=info class="model-inner">
+                    <br><br>
+                    Anna Aleksandrovna Ignatenko<br>
+                    New York, NY <br><br>
+                    Anna is a filmmaker and artist, and her expertise spans photography, sculpture, video, filmmaking, 
+                    and screenwriting. She is currently on track to graduate in Spring 2024 from the School of Arts at
+                    Columbia University in Film & Media Studies.<br><br>
+                    She has previously studied Cognitive Science and Neuroscience & Behavioral Studies at the School 
+                    of Psychology, School of Cognitive Science, and Department of Biological Sciences at Columbia
+                    University. <br><br>
+                    In addition to her own ventures, she is open to collaborating on others’ films or video projects 
+                    as a producer, production manager, researcher, or director of photography. She also supports
+                    fellow artists, managing exhibitions and overseeing studios from both production and creative
+                    perspectives.<br><br>
+                    Professionally, Anna is actively preparing for two new projects set to begin filming this upcoming
+                    winter and has other collaborated on films currently either shortlisted or in post-production
+                    scheduled for release in 2024. Upcoming on the academic front, she is preparing to apply to Ph.D.
+                    programs this December for Fall 2024.<br><br>
+                    For inquiries or partnerships, she can be reached at aai2131@columbia.edu. 
+                </div>        
+            </template>
+        </div>
+        <div class="overlay" x-show="isModalOpen" x-cloak></div>
     </div>
 </body>
 </html>
