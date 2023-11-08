@@ -1,6 +1,7 @@
-videoplayback(1).mp4 filter=lfs diff=lfs merge=lfs -text
-.mp4 filter=lfs diff=lfs merge=lfs -text
+# videoplayback(1).mp4 filter=lfs diff=lfs merge=lfs -text
+# .mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
 *.css filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.js filter=lfs diff=lfs merge=lfs -text
